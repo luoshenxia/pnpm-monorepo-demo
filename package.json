@@ -7,12 +7,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "npx only-allow pnpm",
-    "build": "pnpm --filter=lsxsuperman/* run build",
+    "build": "pnpm --filter=@lsxsuperman/* run build",
     "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "pnpm build && pnpm release:only",
-    "release:only": "changeset publish --registry=https://registry.npmjs.com/"
+    "release:only": "changeset publish --access public --registry=https://registry.npmjs.com/"
   },
   "keywords": [],
   "author": "",
