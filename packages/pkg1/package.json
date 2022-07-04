@@ -15,5 +15,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@lsxsuperman/monorepo4": "workspace:^1.0.0"
   }
 }

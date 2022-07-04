@@ -15,7 +15,10 @@ importers:
       rimraf: 3.0.2
 
   packages/pkg1:
-    specifiers: {}
+    specifiers:
+      '@lsxsuperman/monorepo4': workspace:^1.0.0
+    dependencies:
+      '@lsxsuperman/monorepo4': link:../pkg2
 
   packages/pkg2:
     specifiers: {}
