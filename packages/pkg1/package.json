@@ -15,6 +15,5 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@qftjs/monorepo4": "workspace:^1.0.0"
   }
 }
