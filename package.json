@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "npx only-allow pnpm",
-    "build": "pnpm --filter=luoshenxia/* run build",
+    "build": "pnpm --filter=lsxsuperman/* run build",
     "clear": "rimraf 'packages/*/{lib,node_modules}' && rimraf node_modules",
     "changeset": "changeset",
     "version-packages": "changeset version",
